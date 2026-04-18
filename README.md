@@ -24,7 +24,7 @@ To ensure the fuzzer only explores valid tree states, this project represents tr
 The provided `target.cpp` contains a DFS algorithm that merges `std::set` data structures. 
 * It is missing the standard "Small-to-Large" swap optimization.
 * Under normal/random tree conditions, it executes in `< 0.05s`.
-* When run through PruferFuzz, the Genetic Algorithm naturally learns to filter out duplicate numbers in the Prüfer sequence, evolving the tree from a shallow, random structure into a massive $10,000$-node "Line Graph", successfully triggering a `2.0s` TLE timeout.
+* When run through TreeKiller, the Genetic Algorithm naturally learns to filter out duplicate numbers in the Prüfer sequence, evolving the tree from a shallow, random structure into a massive $10,000$-node "Line Graph", successfully triggering a `2.0s` TLE timeout.
 
 ## Usage
 
