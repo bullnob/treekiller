@@ -2,7 +2,7 @@
 
 An evolutionary fuzzer designed to automatically discover worst-case execution paths (Time Limit Exceeded) in C++ tree algorithms. 
 
-Unlike standard binary fuzzers (like AFL) that feed random bytes into a program, **PruferFuzz** uses a Genetic Algorithm to evolve heavily structured inputs—specifically ensuring that every generated test case is a perfectly valid, fully connected mathematical Tree.
+Unlike standard binary fuzzers (like AFL) that feed random bytes into a program, **Treekiller** uses a Genetic Algorithm to evolve heavily structured inputs—specifically ensuring that every generated test case is a perfectly valid, fully connected mathematical Tree.
 
 ## The Problem :
 
